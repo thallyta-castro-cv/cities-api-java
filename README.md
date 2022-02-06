@@ -139,3 +139,13 @@ select earth_distance(
 ```shell script
 wget https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
 ```
+
+# Autor
+
+<b>Thallyta Macedo Carvalho de Castro</b>
+
+Linkedin: [https://www.linkedin.com/in/thallyta-castro/](https://www.linkedin.com/in/thallyta-castro/)
+
+Medium: [https://medium.com/@thallyta-castro-cv](https://medium.com/@thallyta-castro-cv)
+
+email: [contato@thallytacastro.com.br](mailto:contato@thallytacastro.com.br)
