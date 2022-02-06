@@ -1,6 +1,12 @@
-# API para consulta de cidades do Brasil
+# Desafio API para consulta de cidades do Brasil com Java
+![NPM](https://img.shields.io/npm/l/react)
 
-Projeto desenvolvido para o bootcamp Quality Assurence Beginner #3 da Everis NTT Data
+# Sobre o projeto
+Projeto desenvolvido para o bootcamp Quality Assurence Beginner #3 da Everis NTT Data.
+
+Neste projeto foi desenvolvido uma API Rest de consulta de cidades do Brasil com dados comparativos em Java, SpringBoot e SpringData.
+
+# Tecnologias Utilizadas
 
 ##### Framework do Projeto
 - [Spring Initializr](https://start.spring.io/ "Spring Initializr")
@@ -16,7 +22,7 @@ Projeto desenvolvido para o bootcamp Quality Assurence Beginner #3 da Everis NTT
 - **Packaging:** Jar
 - **Java:** 8
 
-## Requisitos
+# Requisitos para desenvolvimento do projeto
 
 * Linux
 * Git
@@ -24,6 +30,44 @@ Projeto desenvolvido para o bootcamp Quality Assurence Beginner #3 da Everis NTT
 * Docker
 * IntelliJ Community
 * Heroku CLI
+
+
+### Spring Boot
+
+* [https://start.spring.io/](https://start.spring.io/)
+
++ Java 8
++ Gradle Project
++ Jar
++ Spring Web
++ Spring Data JPA
++ PostgreSQL Driver
+
+### Spring Data
+
+* [jpa.query-methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
+
+### Propriedades
+
+* [appendix-application-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
+* [jdbc-database-connectio](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
+
+### Tipos
+
+* [JsonTypes](https://github.com/vladmihalcea/hibernate-types)
+* [UserType](https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/usertype/UserType.html)
+
+### Heroku
+
+* [DevCenter](https://devcenter.heroku.com/articles/getting-started-with-gradle-on-heroku)
+
+### Qualidade de código
+
+#### PMD
+
++ https://pmd.github.io/pmd-6.8.0/index.html
+
+# Como executar o projeto
 
 ## Banco de dados
 
@@ -60,7 +104,6 @@ CREATE EXTENSION earthdistance;
 * [postgrescheatsheet](https://postgrescheatsheet.com/#/tables)
 * [datatype-geometric](https://www.postgresql.org/docs/current/datatype-geometric.html)
 
-### Acesso
 
 ```shell script
 docker exec -it cities-db /bin/bash
@@ -83,40 +126,7 @@ select earth_distance(
 ) as distance;
 ```
 
-## Spring Boot
 
-* [https://start.spring.io/](https://start.spring.io/)
-
-+ Java 8
-+ Gradle Project
-+ Jar
-+ Spring Web
-+ Spring Data JPA
-+ PostgreSQL Driver
-
-### Spring Data
-
-* [jpa.query-methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
-
-### Propriedades
-
-* [appendix-application-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
-* [jdbc-database-connectio](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
-
-### Tipos
-
-* [JsonTypes](https://github.com/vladmihalcea/hibernate-types)
-* [UserType](https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/usertype/UserType.html)
-
-## Heroku
-
-* [DevCenter](https://devcenter.heroku.com/articles/getting-started-with-gradle-on-heroku)
-
-## Qualidade de código
-
-### PMD
-
-+ https://pmd.github.io/pmd-6.8.0/index.html
 
 ### Checkstyle
 
